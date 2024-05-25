@@ -5,19 +5,17 @@
 ### Command line
 
 ```
-graph init \
+graph init --studio \
   --from-contract 0xd795012382Ae5DFB52c41B34F296319b233e20C0 \
   --network sepolia \
-  --abi Gov.json \
-  w3hc/gov-subgraph gov-subgraph
+  gov-subgraph
 ```
 
 ### Output
 
 ```
 ✔ Protocol · ethereum
-✔ Product for which to initialize · hosted-service
-✔ Subgraph name · w3hc/gov-subgraph
+✔ Subgraph name · gov-subgraph
 ✔ Directory to create the subgraph in · gov-subgraph
 ✔ Contract address · 0xd795012382Ae5DFB52c41B34F296319b233e20C0
 ✔ Start Block · 5975923
