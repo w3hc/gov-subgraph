@@ -37,6 +37,14 @@ graph init \
 yarn install
 ```
 
+## Authenticate on TheGraph Studio
+
+### Command line
+
+```
+yarn auth
+```
+
 ## Generate AssemblyScript types
 
 ### Command line
@@ -45,10 +53,18 @@ yarn install
 yarn codegen
 ```
 
-## Generate AssemblyScript types
+## Build AssemblyScript mappings
 
 ### Command line
 
 ```
 yarn build
+```
+
+## Deploy on TheGraph Studio
+
+### Command line
+
+```
+yarn deploy
 ```

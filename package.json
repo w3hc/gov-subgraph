@@ -1,0 +1,19 @@
+{
+  "name": "gov-subgraph",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --studio gov-subgraph",
+    "auth": "graph auth --studio $DEPLOYKEY",
+    "create-local": "graph create --node http://localhost:8020/ gov-subgraph",
+    "remove-local": "graph remove --node http://localhost:8020/ gov-subgraph",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 gov-subgraph",
+    "test": "graph test"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.72.2",
+    "@graphprotocol/graph-ts": "0.32.0"
+  },
+  "devDependencies": { "matchstick-as": "0.5.0" }
+}
