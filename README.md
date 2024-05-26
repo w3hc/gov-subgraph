@@ -6,8 +6,8 @@ Integration live at **[https://gov-ui.netlify.app/](https://gov-ui.netlify.app/)
 
 See also:
 
-- **[Gov Solidity contracts](https://github.com/w3hc/gov)**
-- [Gov UI](https://gov-ui.netlify.app/)
+- **[Gov UI](https://gov-ui.netlify.app/)**
+- [Gov Solidity contracts](https://github.com/w3hc/gov)
 - [Documentation](https://w3hc.github.io/gov-docs/)
 - [Gov Deployer](https://github.com/w3hc/gov-deployer)
 - [Example DAO on Tally](https://www.tally.xyz/gov/web3-hackers-collective)
